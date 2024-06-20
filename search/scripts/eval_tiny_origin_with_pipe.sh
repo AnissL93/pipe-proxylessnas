@@ -1,0 +1,2 @@
+#!/bin/bash
+python eval_pipe_perf.py --eval_pipe_only=1 --path tiny_origin/ --target_hardware flops  --grad_binary_mode two --n_cell_stages 3,3,3,3 --stride_stages 2,2,2,1  --n_epochs 3000 --resume --last_channel=512  --latency_data data/tiny/latency.csv

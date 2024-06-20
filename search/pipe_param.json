@@ -1,0 +1,450 @@
+{
+    "0": {
+        "index": 0,
+        "type": "Conv",
+        "input": [
+            224,
+            224,
+            3
+        ],
+        "output": [
+            112.0,
+            112.0,
+            32
+        ]
+    },
+    "1": {
+        "index": 1,
+        "type": "expanded_conv",
+        "input": [
+            112,
+            112,
+            32
+        ],
+        "output": [
+            112,
+            112,
+            32
+        ],
+        "expand": 1,
+        "kernel": 3,
+        "stride": 1,
+        "idskip": 0,
+        "pad_l": 1,
+        "pad_r": 1
+    },
+    "2": {
+        "index": 2,
+        "type": "expanded_conv",
+        "input": [
+            112,
+            112,
+            16
+        ],
+        "output": [
+            56,
+            56,
+            16
+        ],
+        "expand": 6,
+        "kernel": 7,
+        "stride": 2,
+        "idskip": 0,
+        "pad_l": 2,
+        "pad_r": 3
+    },
+    "3": {
+        "index": 3,
+        "type": "expanded_conv",
+        "input": [
+            56,
+            56,
+            24
+        ],
+        "output": [
+            56,
+            56,
+            24
+        ],
+        "expand": 6,
+        "kernel": 5,
+        "stride": 1,
+        "idskip": 1,
+        "pad_l": 2,
+        "pad_r": 2
+    },
+    "4": {
+        "index": 4,
+        "type": "expanded_conv",
+        "input": [
+            56,
+            56,
+            24
+        ],
+        "output": [
+            56,
+            56,
+            24
+        ],
+        "expand": 6,
+        "kernel": 5,
+        "stride": 1,
+        "idskip": 1,
+        "pad_l": 2,
+        "pad_r": 2
+    },
+    "5": {
+        "index": 5,
+        "type": "expanded_conv",
+        "input": [
+            56,
+            56,
+            24
+        ],
+        "output": [
+            56,
+            56,
+            24
+        ],
+        "expand": 6,
+        "kernel": 7,
+        "stride": 1,
+        "idskip": 1,
+        "pad_l": 3,
+        "pad_r": 3
+    },
+    "6": {
+        "index": 6,
+        "type": "expanded_conv",
+        "input": [
+            56,
+            56,
+            24
+        ],
+        "output": [
+            28,
+            28,
+            24
+        ],
+        "expand": 6,
+        "kernel": 7,
+        "stride": 2,
+        "idskip": 0,
+        "pad_l": 2,
+        "pad_r": 3
+    },
+    "7": {
+        "index": 7,
+        "type": "expanded_conv",
+        "input": [
+            28,
+            28,
+            40
+        ],
+        "output": [
+            28,
+            28,
+            40
+        ],
+        "expand": 6,
+        "kernel": 5,
+        "stride": 1,
+        "idskip": 1,
+        "pad_l": 2,
+        "pad_r": 2
+    },
+    "8": {
+        "index": 8,
+        "type": "expanded_conv",
+        "input": [
+            28,
+            28,
+            40
+        ],
+        "output": [
+            28,
+            28,
+            40
+        ],
+        "expand": 6,
+        "kernel": 5,
+        "stride": 1,
+        "idskip": 1,
+        "pad_l": 2,
+        "pad_r": 2
+    },
+    "9": {
+        "index": 9,
+        "type": "expanded_conv",
+        "input": [
+            28,
+            28,
+            40
+        ],
+        "output": [
+            28,
+            28,
+            40
+        ],
+        "expand": 6,
+        "kernel": 5,
+        "stride": 1,
+        "idskip": 1,
+        "pad_l": 2,
+        "pad_r": 2
+    },
+    "10": {
+        "index": 10,
+        "type": "expanded_conv",
+        "input": [
+            28,
+            28,
+            40
+        ],
+        "output": [
+            14,
+            14,
+            40
+        ],
+        "expand": 6,
+        "kernel": 7,
+        "stride": 2,
+        "idskip": 0,
+        "pad_l": 2,
+        "pad_r": 3
+    },
+    "11": {
+        "index": 11,
+        "type": "zerolayer"
+    },
+    "12": {
+        "index": 12,
+        "type": "zerolayer"
+    },
+    "13": {
+        "index": 13,
+        "type": "expanded_conv",
+        "input": [
+            14,
+            14,
+            80
+        ],
+        "output": [
+            14,
+            14,
+            80
+        ],
+        "expand": 6,
+        "kernel": 3,
+        "stride": 1,
+        "idskip": 1,
+        "pad_l": 1,
+        "pad_r": 1
+    },
+    "14": {
+        "index": 14,
+        "type": "expanded_conv",
+        "input": [
+            14,
+            14,
+            80
+        ],
+        "output": [
+            14,
+            14,
+            80
+        ],
+        "expand": 6,
+        "kernel": 7,
+        "stride": 1,
+        "idskip": 0,
+        "pad_l": 3,
+        "pad_r": 3
+    },
+    "15": {
+        "index": 15,
+        "type": "expanded_conv",
+        "input": [
+            14,
+            14,
+            96
+        ],
+        "output": [
+            14,
+            14,
+            96
+        ],
+        "expand": 6,
+        "kernel": 5,
+        "stride": 1,
+        "idskip": 1,
+        "pad_l": 2,
+        "pad_r": 2
+    },
+    "16": {
+        "index": 16,
+        "type": "expanded_conv",
+        "input": [
+            14,
+            14,
+            96
+        ],
+        "output": [
+            14,
+            14,
+            96
+        ],
+        "expand": 6,
+        "kernel": 3,
+        "stride": 1,
+        "idskip": 1,
+        "pad_l": 1,
+        "pad_r": 1
+    },
+    "17": {
+        "index": 17,
+        "type": "expanded_conv",
+        "input": [
+            14,
+            14,
+            96
+        ],
+        "output": [
+            14,
+            14,
+            96
+        ],
+        "expand": 6,
+        "kernel": 5,
+        "stride": 1,
+        "idskip": 1,
+        "pad_l": 2,
+        "pad_r": 2
+    },
+    "18": {
+        "index": 18,
+        "type": "expanded_conv",
+        "input": [
+            14,
+            14,
+            96
+        ],
+        "output": [
+            7,
+            7,
+            96
+        ],
+        "expand": 6,
+        "kernel": 7,
+        "stride": 2,
+        "idskip": 0,
+        "pad_l": 2,
+        "pad_r": 3
+    },
+    "19": {
+        "index": 19,
+        "type": "expanded_conv",
+        "input": [
+            7,
+            7,
+            192
+        ],
+        "output": [
+            7,
+            7,
+            192
+        ],
+        "expand": 6,
+        "kernel": 7,
+        "stride": 1,
+        "idskip": 1,
+        "pad_l": 3,
+        "pad_r": 3
+    },
+    "20": {
+        "index": 20,
+        "type": "expanded_conv",
+        "input": [
+            7,
+            7,
+            192
+        ],
+        "output": [
+            7,
+            7,
+            192
+        ],
+        "expand": 6,
+        "kernel": 7,
+        "stride": 1,
+        "idskip": 1,
+        "pad_l": 3,
+        "pad_r": 3
+    },
+    "21": {
+        "index": 21,
+        "type": "expanded_conv",
+        "input": [
+            7,
+            7,
+            192
+        ],
+        "output": [
+            7,
+            7,
+            192
+        ],
+        "expand": 6,
+        "kernel": 7,
+        "stride": 1,
+        "idskip": 1,
+        "pad_l": 3,
+        "pad_r": 3
+    },
+    "22": {
+        "index": 22,
+        "type": "expanded_conv",
+        "input": [
+            7,
+            7,
+            192
+        ],
+        "output": [
+            7,
+            7,
+            192
+        ],
+        "expand": 6,
+        "kernel": 5,
+        "stride": 1,
+        "idskip": 0,
+        "pad_l": 2,
+        "pad_r": 2
+    },
+    "23": {
+        "index": 23,
+        "type": "Conv_1",
+        "input": [
+            7,
+            7,
+            320
+        ],
+        "output": [
+            7,
+            7,
+            1280
+        ]
+    },
+    "24": {
+        "index": 24,
+        "type": "Logits",
+        "input": [
+            7,
+            7,
+            1280
+        ],
+        "output": [
+            1000
+        ]
+    }
+}
